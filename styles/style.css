@@ -201,3 +201,56 @@ height: 328px;
 .reviewContainer img{
     border-radius: 1000px;
 }
+
+/* get in touch styles  */
+.getInTouchContainer{
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    gap: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 100px 150px;
+    background-color: rgb(245, 248, 255);
+}
+.getInTouchContent{
+    width: 50%;
+}
+.getInTouchContent h1{
+    color: rgb(0, 0, 0);
+    font-size: 97px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+.getInForm{
+     width: 50%;
+}
+   input, textarea{
+    display: block;
+    width: 100%;
+    border-radius:10px ;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: 1px solid rgb(214, 221, 237);
+    background-color: #fff;
+    
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.getInTouchButton{
+     font-size: 16px;
+    font-weight: 700;
+    padding: 19px 215px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 71, 255);
+     font-family: Raleway;
+
+}
