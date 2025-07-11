@@ -1,16 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
       font-family: "Inter", sans-serif;
+
+}
+header{
+    height: 700px;
+    background-image: url(../Assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 200px 0px;
+
 
 }
 
 .navContainer{
     display: flex;
     justify-content: space-between;
-     margin: 0 auto; 
     align-items: center;
-    margin: 50px 150px;
+    padding: 50px 150px;
+
+
 }
 
 .logoDiv h2{
@@ -18,14 +33,107 @@ body{
     font-size: 30px;
     font-weight: 900;
     font-family: Inter;
+
 }
-.buttonDiv button{
+.buttonDiv {
     font-size: 16px;
     font-weight: 700;
     padding: 12px 36px;
+    margin-top: 24px;
     border: none;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(78, 71, 255);
+     font-family: Raleway;
+
+}
+
+/* bannerStyles  */
+.bannerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:150px 110px 200px;
+
+}
+.bannerContent{   
+     text-align: center;   
+}
+.bannerContent h1{
     font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+/* action Container Styles Here   */
+.actionContainer{
+    width: 1140px;
+height: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px;
+    gap: 200px;
+ 
+}
+.actionContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.actionTitle{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Raleway;
+    margin-bottom: 24px;
+}
+.actionSubTitle{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.actionImage img{
+    border-radius: 48px;
+
+}
+
+/* productive users section  */
+.products{
+  width: 1140px;
+  height: 328px;
+  margin: 50px 150px;
+  padding: 50px 80px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+}
+.productTitle{
+    color: rgb(37, 36, 50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 700;
+}
+.productContainer{
+    display: flex;
+ justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    gap: 158px;
+}
+
+.productData{
+    color: rgb(78, 71, 255);
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+}
+.productSubTitle{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
