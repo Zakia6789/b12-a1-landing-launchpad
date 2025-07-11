@@ -137,3 +137,67 @@ height: 328px;
     font-size: 20px;
     font-weight: 400;
 }
+
+/* feedback section  */
+.feedback-container{
+    width: 1140px;
+    height: 342px;
+    margin: 50px 150px;
+}
+.sectionTitle{
+    font-family: Raleway;
+    color: rgb(37, 36, 50);
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.feedbackCardContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 50px 0px;
+}
+ .feedbackCard{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 14px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    gap: 24px;
+    padding: 24px;
+} 
+.feedbackTitle{
+
+}
+.feedbackTitle h3{
+    color: rgb(30, 30, 30);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Inter;
+    margin: 20px 0px 10px 0px;
+
+}
+.feedbackTitle p{
+    color: rgb(30, 30, 30);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+}
+
+.reviewContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    gap: 12px;
+    margin: 24px 0px;
+}
+.reviewContainer h5{
+    margin-bottom: 3px;
+}
+.reviewContainer img{
+    border-radius: 1000px;
+}
