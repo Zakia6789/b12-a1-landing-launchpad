@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-      font-family: "Inter", sans-serif;
+
+body {
+    font-family: "Inter", sans-serif;
 
 }
-header{
+
+header {
     height: 700px;
     background-image: url(../Assets/Hero-bg.png);
     background-position: center;
@@ -19,7 +22,7 @@ header{
 
 }
 
-.navContainer{
+.navContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,13 +31,14 @@ header{
 
 }
 
-.logoDiv h2{
+.logoDiv h2 {
     color: rgb(78, 71, 255);
     font-size: 30px;
     font-weight: 900;
     font-family: Inter;
 
 }
+
 .buttonDiv {
     font-size: 16px;
     font-weight: 700;
@@ -44,10 +48,11 @@ header{
     border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(78, 71, 255);
-     font-family: Raleway;
+    font-family: Raleway;
 
 }
-.buttonDiv:hover{
+
+.buttonDiv:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(8, 3, 179);
     transition-duration: 0.4s;
@@ -55,18 +60,20 @@ header{
 }
 
 /* bannerStyles  */
-.bannerContainer{
+.bannerContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin:150px 110px 200px;
+    margin: 150px 110px 200px;
 
 }
-.bannerContent{   
-     text-align: center;   
+
+.bannerContent {
+    text-align: center;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-family: Raleway;
     font-size: 65px;
     font-weight: 700;
@@ -74,70 +81,76 @@ header{
 }
 
 /* action Container Styles Here   */
-.actionContainer{
+.actionContainer {
     width: 1140px;
-height: 328px;
+    height: 328px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 100px 150px;
     gap: 200px;
- 
+
 }
-.actionContent{
+
+.actionContent {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.actionTitle{
+
+.actionTitle {
     font-size: 42px;
     font-weight: 700;
     font-family: Raleway;
     margin-bottom: 24px;
 }
-.actionSubTitle{
+
+.actionSubTitle {
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
     font-weight: 400;
 }
 
-.actionImage img{
+.actionImage img {
     border-radius: 48px;
 
 }
 
 /* productive users section  */
-.products{
-  width: 1140px;
-  height: 328px;
-  margin: 50px 150px;
-  padding: 50px 80px;
-  background-color: rgba(78, 71, 255, 0.1);
-  border-radius: 24px;
+.products {
+    width: 1140px;
+    height: 328px;
+    margin: 50px 150px;
+    padding: 50px 80px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
 }
-.productTitle{
+
+.productTitle {
     color: rgb(37, 36, 50);
     text-align: center;
     font-family: Raleway;
     font-size: 38px;
     font-weight: 700;
 }
-.productContainer{
+
+.productContainer {
     display: flex;
- justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     margin-top: 40px;
     gap: 158px;
 }
 
-.productData{
+.productData {
     color: rgb(78, 71, 255);
     font-family: Inter;
     font-size: 80px;
     font-weight: 700;
 }
-.productSubTitle{
+
+.productSubTitle {
     color: rgba(0, 0, 0, 0.5);
     font-family: Inter;
     font-size: 20px;
@@ -145,12 +158,13 @@ height: 328px;
 }
 
 /* feedback section  */
-.feedback-container{
+.feedback-container {
     width: 1140px;
     height: 342px;
     margin: 50px 150px;
 }
-.sectionTitle{
+
+.sectionTitle {
     font-family: Raleway;
     color: rgb(37, 36, 50);
     font-size: 42px;
@@ -159,27 +173,28 @@ height: 328px;
 }
 
 
-.feedbackCardContainer{
+.feedbackCardContainer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
     margin: 50px 0px;
 }
- .feedbackCard{
+
+.feedbackCard {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 14px;
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     gap: 24px;
     padding: 24px;
-} 
-.feedbackTitle{
-
 }
-.feedbackTitle h3{
+
+.feedbackTitle {}
+
+.feedbackTitle h3 {
     color: rgb(30, 30, 30);
     font-size: 24px;
     font-weight: 600;
@@ -187,29 +202,32 @@ height: 328px;
     margin: 20px 0px 10px 0px;
 
 }
-.feedbackTitle p{
+
+.feedbackTitle p {
     color: rgb(30, 30, 30);
     font-size: 16px;
     font-weight: 400;
     font-family: Inter;
 }
 
-.reviewContainer{
+.reviewContainer {
     display: flex;
     justify-content: flex-start;
-    align-items:center;
+    align-items: center;
     gap: 12px;
     margin: 24px 0px;
 }
-.reviewContainer h5{
+
+.reviewContainer h5 {
     margin-bottom: 3px;
 }
-.reviewContainer img{
+
+.reviewContainer img {
     border-radius: 1000px;
 }
 
 /* get in touch styles  */
-.getInTouchContainer{
+.getInTouchContainer {
     width: 1140px;
     height: 632px;
     display: flex;
@@ -219,37 +237,42 @@ height: 328px;
     margin: 100px 150px;
     background-color: rgb(245, 248, 255);
 }
-.getInTouchContent{
+
+.getInTouchContent {
     width: 50%;
 }
-.getInTouchContent h1{
+
+.getInTouchContent h1 {
     color: rgb(0, 0, 0);
     font-size: 97px;
     font-weight: 700;
     font-family: Raleway;
 }
-.getInForm{
-     width: 50%;
+
+.getInForm {
+    width: 50%;
 }
-   input, textarea{
+
+input,
+textarea {
     display: block;
     width: 100%;
-    border-radius:10px ;
+    border-radius: 10px;
     padding: 20px 32px;
     margin-bottom: 24px;
     font-size: 18px;
     border: 1px solid rgb(214, 221, 237);
     background-color: #fff;
-    
+
 }
 
-label{
+label {
     font-size: 18px;
     font-weight: 600;
 }
 
-.getInTouchButton{
-     font-size: 16px;
+.getInTouchButton {
+    font-size: 16px;
     font-weight: 700;
     padding: 19px 215px;
     margin-top: 24px;
@@ -257,23 +280,26 @@ label{
     border-radius: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(78, 71, 255);
-     font-family: Raleway;
+    font-family: Raleway;
 
 }
-.getInTouchButton:hover{
-     color: rgb(255, 255, 255);
+
+.getInTouchButton:hover {
+    color: rgb(255, 255, 255);
     background-color: rgb(8, 3, 179);
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 /* footer styles  */
-.footerDiv h1{
-          color: rgb(78, 71, 255);
+.footerDiv h1 {
+    color: rgb(78, 71, 255);
     font-size: 100px;
     font-weight: 900;
     font-family: Inter;
 }
-.footerDiv p{
+
+.footerDiv p {
     color: rgb(137, 135, 161);
     font-size: 16px;
     font-weight: 400;
@@ -281,20 +307,24 @@ label{
     margin: 30px 0px;
 
 }
-.footerContainer{
-     width: 530px;
+
+.footerContainer {
+    width: 530px;
     height: 220px;
     margin: 100px 455px;
     text-align: center;
 }
+
 .footerDiv ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.footerDiv li{
+
+.footerDiv li {
     list-style: none;
 }
-.footerDiv a{
+
+.footerDiv a {
     text-decoration: none;
 }
