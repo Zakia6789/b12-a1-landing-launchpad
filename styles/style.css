@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+      font-family: "Inter", sans-serif;
+
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+     margin: 0 auto; 
+    align-items: center;
+    margin: 50px 150px;
+}
+
+.logoDiv h2{
+    color: rgb(78, 71, 255);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Inter;
+}
+.buttonDiv button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 71, 255);
+    font-family: Raleway;
+}
